@@ -6,7 +6,7 @@ import java.lang.reflect.Modifier;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-@SuppressWarnings("CallToPrintStackTrace")
+
 public class main {
 
     public static void SToT(source i, target j){
@@ -50,9 +50,15 @@ public class main {
                 .name(222221)
                 .build();
         target test2 =new target();
-        //SToT(test1,test2);
-
+        SToT(test1,test2);
         System.out.print(test1);
+        inputDTO input = new inputDTO.Builder(20)
+                .y(5)
+                .build();
+
+
+
+
     }
 
 }
